@@ -381,6 +381,7 @@ h2 {
 
 .screenshots {
     background: url(../img/background-2.jpg) no-repeat center;
+    position: relative;
 }
 
 .screenshots-header {
@@ -393,46 +394,19 @@ h2 {
     margin-bottom: 110px;
 }
 
-.slider-screenshots img {
-    float: left;
-    margin-right: 33px;
-    margin-bottom: 170px;
-    outline: 1px solid #706e70;
+.screenshots .slider {
     position: relative;
-}
-
-.slider-screenshots img:last-child {
-    margin-right: 0;
-}
-
-.slider-screenshots img:before {
-    display: inline-block;
-    content: '';
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    position: absolute;
-    top: 50;
-    left: 0;
-    z-index: 100;
-}
-
-.screenshots:before {
-    display: inline-block;
-    content: '';
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
+    min-height: 645px
 }
 
 .screenshot-1,
 .screenshot-2,
 .screenshot-3,
-.screenshot-4 {
+.screenshot-4,
+.screenshot-5,
+.screenshot-6,
+.screenshot-7,
+.screenshot-8 {
     width: 262px;
     height: 465px;
     float: left;
@@ -443,8 +417,16 @@ h2 {
 
 .screenshot-1,
 .screenshot-2,
-.screenshot-3 {
-    margin-right: 33px;
+.screenshot-3,
+.screenshot-5,
+.screenshot-6,
+.screenshot-7 {
+    margin-right: 35px;
+}
+
+.screenshot-1,
+.screenshot-5 {
+    margin-left: 6px;
 }
 
 .screenshot-1 {
@@ -481,4 +463,96 @@ h2 {
 .screenshot-4:hover {
     background-image: url(../img/screenshot-hover.png), url(../img/screenshot-4.jpg);
     outline: 1px solid #6a64cd;
+}
+
+.screenshot-5 {
+    background-image: url(../img/screenshot-4.jpg);
+}
+
+.screenshot-5:hover {
+    background-image: url(../img/screenshot-hover.png), url(../img/screenshot-4.jpg);
+    outline: 1px solid #6a64cd;
+}
+
+.screenshot-6 {
+    background-image: url(../img/screenshot-3.jpg);
+}
+
+.screenshot-6:hover {
+    background-image: url(../img/screenshot-hover.png), url(../img/screenshot-3.jpg);
+    outline: 1px solid #6a64cd;
+}
+
+.screenshot-7 {
+    background-image: url(../img/screenshot-2.jpg);
+}
+
+.screenshot-7:hover {
+    background-image: url(../img/screenshot-hover.png), url(../img/screenshot-2.jpg);
+    outline: 1px solid #6a64cd;
+}
+
+.screenshot-8 {
+    background-image: url(../img/screenshot-1.jpg);
+}
+
+.screenshot-8:hover {
+    background-image: url(../img/screenshot-hover.png), url(../img/screenshot-1.jpg);
+    outline: 1px solid #6a64cd;
+}
+
+.slider-screenshots-2 {
+    display: none;
+}
+
+.screenshots input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.slider-controls {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 510px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+    z-index: 1000;
+    vertical-align: top;
+}
+
+.slider-controls label {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    margin: 0 3px;
+    border: 3px solid #a62ad7;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"] {
+    background: #a62ad7;
+}
+
+#btn-1:checked ~ .slider-screenshots-1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#btn-2:checked ~ .slider-screenshots-2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
