@@ -1151,6 +1151,10 @@ footer input[type="text"] {
     border: 0;
 }
 
+.form-comments textarea:focus {
+    outline: none;
+}
+
 footer .form-submit {
     width: 535px;
     height: 50px;
@@ -1169,4 +1173,42 @@ footer input[type="submit"] {
     top: -25px;
     left: 0;
     border: 0;
+}
+
+.social-btns {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.social-btns a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.social-btns a:last-child {
+    margin-right: 0;
+}
+
+.social-btns a:hover {
+    background-color: #a62ad7;
+}
+
+.footer-info li {
+    display: inline-block;
+    margin-right: 11px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.footer-info li a {
+    text-decoration: none;
+    color: white;
 }
