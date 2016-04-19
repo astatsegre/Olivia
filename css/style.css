@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?24388246');
-  src: url('../font/fontello.eot?24388246#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?24388246') format('woff'),
-       url('../font/fontello.ttf?24388246') format('truetype'),
-       url('../font/fontello.svg?24388246#fontello') format('svg');
+  font-family: "fontello";
+  src: url("../font/fontello.eot?24388246");
+  src: url("../font/fontello.eot?24388246#iefix") format("embedded-opentype"),
+       url("../font/fontello.woff?24388246") format("woff"),
+       url("../font/fontello.ttf?24388246") format("truetype"),
+       url("../font/fontello.svg?24388246#fontello") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,8 +13,8 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?24388246#fontello') format('svg');
+    font-family: "fontello";
+    src: url("../font/fontello.svg?24388246#fontello") format("svg");
   }
 }
 */
@@ -54,18 +54,18 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-clock:before { content: '\e800'; } /* '' */
-.icon-rocket:before { content: '\e801'; } /* '' */
-.icon-cog:before { content: '\e802'; } /* '' */
-.icon-quote:before { content: '\e803'; } /* '' */
-.icon-facebook:before { content: '\e804'; } /* '' */
-.icon-twitter:before { content: '\e805'; } /* '' */
-.icon-linkedin:before { content: '\e806'; } /* '' */
-.icon-pinterest-circled:before { content: '\e807'; } /* '' */
-.icon-gplus:before { content: '\e808'; } /* '' */
-.icon-dribbble:before { content: '\e809'; } /* '' */
-.icon-email:before { content: '\e80a'; } /* '' */
-.icon-globe:before { content: '\e80b'; } /* '' */
+.icon-clock:before { content: "\e800"; } /* "" */
+.icon-rocket:before { content: "\e801"; } /* "" */
+.icon-cog:before { content: "\e802"; } /* "" */
+.icon-quote:before { content: "\e803"; } /* "" */
+.icon-facebook:before { content: "\e804"; } /* "" */
+.icon-twitter:before { content: "\e805"; } /* "" */
+.icon-linkedin:before { content: "\e806"; } /* "" */
+.icon-pinterest-circled:before { content: "\e807"; } /* "" */
+.icon-gplus:before { content: "\e808"; } /* "" */
+.icon-dribbble:before { content: "\e809"; } /* "" */
+.icon-email:before { content: "\e80a"; } /* "" */
+.icon-globe:before { content: "\e80b"; } /* "" */
 
 
 body {
@@ -81,7 +81,7 @@ p {
 }
 
 .clearfix::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }   
@@ -145,7 +145,7 @@ header::before {
 }
 
 .main-nav a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     display: block;
     box-sizing: border-box;
@@ -178,7 +178,7 @@ header::before {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 60px;
     color: white;
     line-height: 72px;
@@ -315,7 +315,6 @@ h2 {
     margin-top: 110px;
     padding-bottom: 70px;
     color: white;
-/*    position: relative;*/
 }
 
 .features-list span {
@@ -345,7 +344,7 @@ h2 {
 
 .first-feature:before {
     display: inline-block;
-    content: '\e800';
+    content: "\e800";
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
@@ -357,7 +356,7 @@ h2 {
 
 .second-feature:before {
     display: inline-block;
-    content: '\e801';
+    content: "\e801";
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
@@ -369,7 +368,7 @@ h2 {
 
 .third-feature:before {
     display: inline-block;
-    content: '\e802';
+    content: "\e802";
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
@@ -777,7 +776,7 @@ h2 {
     margin-top: 10px;
 }
 
-.contact-us .social-btns {
+.contact-us-social-btns {
     position: relative;
     font-family: "fontello";
     font-style: normal;
@@ -786,31 +785,14 @@ h2 {
     margin: 9px 0 70px 0;
 }
 
-.social-btns-fb::before {
-    content: "\e804";
+.contact-us-social-btns a {
+    color: #3b434d;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 22px
 }
 
-.social-btns-twitter::before {
-    content: "\e805";
-    margin-left: 15px;
-}
-
-.social-btns-pinterest::before {
-    content: "\e806";
-    margin-left: 15px;
-}
-
-.social-btns-gplus::before {
-    content: "\e808";
-    margin-left: 15px;
-}
-
-.social-btns-dribble::before {
-    content: "\e809";
-    margin-left: 15px;
-}
-
-.contact-us .social-btns a:hover {
+.contact-us-social-btns a:hover {
     color: #a62ad7;
     cursor: pointer;
 }
@@ -818,7 +800,7 @@ h2 {
 .rush-photo-background {
     content: "";
     position: absolute;
-    box-sizing: border-box'';
+    box-sizing: border-box;
     display: inline-block;
     width: 202px;
     height: 202px;
@@ -843,7 +825,7 @@ h2 {
 .pasteur-photo-background {
     content: "";
     position: absolute;
-    box-sizing: border-box'';
+    box-sizing: border-box;
     display: inline-block;
     width: 202px;
     height: 202px;
@@ -868,7 +850,7 @@ h2 {
 .mccartney-photo-background {
     content: "";
     position: absolute;
-    box-sizing: border-box'';
+    box-sizing: border-box;
     display: inline-block;
     width: 202px;
     height: 202px;
@@ -893,7 +875,7 @@ h2 {
 .lennon-photo-background {
     content: "";
     position: absolute;
-    box-sizing: border-box'';
+    box-sizing: border-box;
     display: inline-block;
     width: 202px;
     height: 202px;
