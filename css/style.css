@@ -507,6 +507,7 @@ h2 {
 .screenshots input[type="radio"] {
     position: absolute;
     opacity: 0;
+    top: 450px;
 }
 
 .slider-controls {
@@ -653,6 +654,7 @@ h2 {
 .testimonial input[type="radio"] {
     position: absolute;
     opacity: 0;
+    top: 450px
 }
 
 .testi-slider-controls {
