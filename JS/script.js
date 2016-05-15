@@ -1,6 +1,6 @@
 var formFeedback = document.forms.feedback
 
-if (bowser.msie && bowser.version <= 9) {
+if (bowser.msie) {
     formFeedback.first_name.value = "First Name";
     formFeedback.last_name.value = "Last Name";
     formFeedback.email.value = "Email";
