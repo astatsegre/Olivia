@@ -8,3 +8,5 @@ if (bowser.msie) {
     formFeedback.comments.value = "Comments"
     alert("stupid!");
 }
+
+alert("stupid!");
