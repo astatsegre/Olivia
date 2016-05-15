@@ -6,6 +6,5 @@ if (bowser.msie && bowser.version <= 9) {
     formFeedback.email.value = "Email";
     formFeedback.tel.value = "Tel. Number";
     formFeedback.comments.value = "Comments"
+    alert("stupid!");
 }
-
-alert('stupid!');
