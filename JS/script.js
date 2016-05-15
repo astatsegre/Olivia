@@ -8,3 +8,4 @@ if (bowser.msie && bowser.version <= 9) {
     formFeedback.comments.value = "Comments"
 }
 
+alert('stupid!');
