@@ -296,6 +296,7 @@ h2 {
 }
 
 .new-app-features {
+    background: #7395f2;
     background: linear-gradient(to right, #7395f2, #af60e2);
 }
 
@@ -559,6 +560,7 @@ h2 {
 }
 
 .testimonial {
+    background: #af60e2;
     background: linear-gradient(to right, #af60e2, #7593f1);
     color: white;
     position: relative;
@@ -808,6 +810,7 @@ h2 {
     width: 202px;
     height: 202px;
     border-radius: 50%;
+    background: #a52bd7;
     background: linear-gradient(to right, #a52bd7, #4283f1);
     top: -10px;
     left: 342px;
@@ -833,6 +836,7 @@ h2 {
     width: 202px;
     height: 202px;
     border-radius: 50%;
+    background: #a52bd7;
     background: linear-gradient(to right, #a52bd7, #4283f1);
     top: 255px;
     left: 342px;
@@ -858,6 +862,7 @@ h2 {
     width: 202px;
     height: 202px;
     border-radius: 50%;
+    background: #a52bd7;
     background: linear-gradient(to right, #a52bd7, #4283f1);
     top: -10px;
     left: 33px;;
@@ -883,6 +888,7 @@ h2 {
     width: 202px;
     height: 202px;
     border-radius: 50%;
+    background: #a52bd7;
     background: linear-gradient(to right, #a52bd7, #4283f1);
     top: 255px;
     left: 33px;;
@@ -901,6 +907,7 @@ h2 {
 }
 
 .subscribe {
+    background: #6a9df4;
     background: linear-gradient(to right, #6a9df4, #9a72e7);
     color: white;
 }
@@ -1081,6 +1088,7 @@ h2 {
 }
 
 footer {
+    background: #a862e3;
     background: linear-gradient(to right, #a862e3, #6c97f3);
     color: white;
     text-align: center;
